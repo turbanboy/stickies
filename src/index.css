@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.note.new{
+  background-color: #e7e7e7; 
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 22px;
+
+}
+
+textarea{
+  border: none;
+  resize: none;
+  background-color: #e7e7e7;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+.add{
+  background-color: black;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 10px 30px 10px 30px;
+  border:none;
+}
+
+.add:hover{
+  background-color: rgb(99, 99, 99);
+  cursor: pointer; 
+}
+
+.clear{
+  background-color: black;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 10px 30px 10px 30px;
+  border:none;
+}
+
+.clear:hover{
+  background-color: rgb(250, 0, 0);
+  cursor: pointer; 
+}
+
+.textfornote{
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.note {
+  background-color: #fef68a;
+  border-radius: 10px;
+  padding: 1rem;
+  height: 170px;
+  width: 230px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  
+}
+
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
